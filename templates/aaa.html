@@ -1,0 +1,402 @@
+
+<html>
+    <head>
+    <meta charset="UTF-8">
+    <meta name="description" content="">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+   <script src="https://www.mydoctorspot.com/care/c3/asset/jquery/jquery-3.3.1.js"></script>
+    <link rel="stylesheet" href="https://www.mydoctorspot.com/care/c3/asset/css/bootstrap.min.css">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <link rel="stylesheet" href="https://www.mydoctorspot.com/care/c3/asset/css/care.css">
+    <link href="https://www.mydoctorspot.com/care/c3/asset/css/font.css" rel="stylesheet">
+    <link href="https://www.mydoctorspot.com/care/c3/asset/css/animate.css" rel="stylesheet">
+    <title>
+</title>
+</head>
+<style>
+body {font-family: Arial, Helvetica, sans-serif;}
+#card5,#card6,#card7,#card8{
+  /* Add shadows to create the "card" effect */
+  box-shadow: 0 5px 10px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  padding-bottom:10px;
+  height:360px;
+  width: 18rem;
+}
+.card-text{
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+.card-body h5{
+  color:#0088cc;
+}
+
+</style>
+<body>
+<div class="page-wrapper chiller-theme" id="page-wrapper">
+
+  <nav id="sidebar" class="sidebar-wrapper">
+    <div class="sidebar-content">
+      <div class="sidebar-brand">
+        <a href="#">Doctorspot</a>
+        <div id="close-sidebar">
+          <i class="fas fa-times"></i>
+        </div>
+      </div>
+      <div class="sidebar-header">
+        <div class="user-pic">
+          <img class="img-responsive img-rounded" src="https://www.mydoctorspot.com/care/c3/asset/images/user.jpg"
+            alt="User picture">
+        </div>
+        <div class="user-info">
+          <span class="user-name">
+            <strong>Madheswaran  E</strong>
+          </span>
+          <span class="user-role">ID:&nbsp;2207</span>
+          <span class="user-role">Age:&nbsp;23</span>
+                    <span class="user-role"><i class="fa fa-2x fa-mars"></i></span>
+                    <span class="user-status">
+            <i class="fa fa-circle"></i>
+            <span>Online</span>
+          </span>
+        </div>
+      </div>
+      <!-- sidebar-header  -->
+      <div class="sidebar-search">
+        <div>
+          <div class="input-group">
+            <input type="text" class="form-control search-menu" placeholder="Search...">
+            <div class="input-group-append">
+              <span class="input-group-text">
+                <i class="fa fa-search" aria-hidden="true"></i>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- sidebar-search  -->
+      <div class="sidebar-menu">
+        <ul>
+          <li class="header-menu">
+            <span>General</span>
+          </li>
+          <li class="sidebar-dropdown">
+            <a href="#">
+              <i class="fa fa-hospital-symbol"></i>
+              <span>Health</span>
+              <!--<span class="badge badge-pill badge-warning">new</span>-->
+            </a>
+            <div class="sidebar-submenu">
+              <ul>
+                <li>
+                  <a href="https://www.mydoctorspot.com/star/index.php">Hospital
+                    <span class="badge badge-pill badge-success">Pro</span>
+                  </a>
+                </li>
+                <li>
+                  <a href="https://www.mydoctorspot.com/care/doctor/doctor.php">Doctors</a>
+                </li>
+                <li>
+                  <a href="https://www.mydoctorspot.com/doc/lab/login.php">Lab</a>
+                </li>
+                <li>
+                  <a href="https://www.mydoctorspot.com/care/diagnosys.php">Diagnosis</a>
+                </li>
+              </ul>
+            </div>
+          </li>
+        <!--  <li class="sidebar-dropdown">
+            <a href="#">
+              <i class="fa fa-shopping-bag"></i>
+              <span>Deals</span>
+              <span class="badge badge-pill badge-danger">3</span>
+            </a>
+            <div class="sidebar-submenu">
+              <ul>
+                <li>
+                  <a href="https://www.mydoctorspot.com/care/vegetable/index.php">Vegitable Price list
+
+                  </a>
+                </li>
+                <li>
+                  <a href="https://www.mydoctorspot.com/care/vegetable/deal.php">Hyperlocal Deals</a>
+                </li>
+              </ul>
+            </div>
+          </li>-->
+          <li class="sidebar-dropdown">
+            <a href="#">
+              <i class="far fa-plus-square"></i>
+              <span>Care Packages</span>
+            </a>
+            <div class="sidebar-submenu">
+              <ul>
+                <li>
+                  <a href="https://www.mydoctorspot.com/care/diabetic/diabetic.php">Diabetic Care</a>
+                </li>
+                <li>
+                  <a href="https://www.mydoctorspot.com/care/doctor/coming.php">Cardiac Care</a>
+                </li>
+                <li>
+                  <a href="https://www.mydoctorspot.com/care/doctor/coming.php">Kidney Care</a>
+                </li>
+                <li>
+                  <a href="https://www.mydoctorspot.com/care/doctor/coming.php">Liver Care</a>
+                </li>
+                                <li>
+                  <a href="https://www.mydoctorspot.com/care/front_preg.php">Pregnancy Care</a>
+                </li>
+                              </ul>
+            </div>
+          </li>
+          <li>
+          <a href="https://www.mydoctorspot.com/camp/calorie.php">
+              <i class="far fa-gem"></i>
+              <span>Fitness</span>
+            </a>
+          </li>
+		  <li>
+          <a href="https://www.mydoctorspot.com/doc/dash1.php">
+              <i class="far fa-gem"></i>
+              <span>Take Appointment</span>
+            </a>
+          </li>
+          <li class="sidebar-dropdown">
+            <a href="#">
+              <i class="fa fa-procedures"></i>
+              <span>Your Medical Reports</span>
+            </a>
+            <div class="sidebar-submenu">
+              <ul>
+                <li>
+                  <a href="https://www.mydoctorspot.com/care/c3/index.php/Care_app_lite/quick_report">Quick Report</a>
+                </li>
+                <li>
+                  <a href="https://www.mydoctorspot.com/care/c3/index.php/Doc_app/intellegent/2207">Intellegent Report</a>
+                </li>
+                <li>
+                  <a href="https://www.mydoctorspot.com/care/ci/index.php/Urine">Detailed Report</a>
+                </li>
+                <li>
+                <a href="https://www.mydoctorspot.com/care/c3/index.php/Care_app_lite/fitness">Fitness Report</a>
+                </li>
+                <li>
+                  <a href="https://www.mydoctorspot.com/care/c3/index.php/Care_app_lite/spyro">Spyro Report</a>
+                </li>
+              </ul>
+            </div>
+          </li>
+          </li>
+          <li>
+          <a href="https://www.mydoctorspot.com/care/disease/index.php?id=2207">
+              <i class="far fa-gem"></i>
+              <span>Predictor</span>
+            </a>
+          </li>
+          <li class="header-menu">
+            <span>Personal</span>
+          </li>
+          <li>
+            <a href="https://www.mydoctorspot.com/care/user_profile/user_profile_lite.php">
+              <i class="fa fa-person-booth"></i>
+              <span>MyProfile</span>
+              <span class="badge badge-pill badge-primary"></span>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.mydoctorspot.com/care/family/index.php">
+              <i class="fa fa-calendar"></i>
+              <span>MyGroups</span>
+            </a>
+          </li>
+         <!-- <li>
+            <a href="#">
+              <i class="fa fa-folder"></i>
+              <span>Change Password</span>
+            </a>
+          </li>-->
+                  </ul>
+      </div>
+
+      <!-- sidebar-menu  -->
+    </div>
+     <!-- sidebar-content  -->
+ <div class="sidebar-footer">
+      <a href="#">
+        <i class="fa fa-bell"></i>
+        <span class="badge badge-pill badge-warning notification">3</span>
+      </a>
+      <a href="#">
+        <i class="fa fa-envelope"></i>
+        <span class="badge badge-pill badge-success notification">7</span>
+      </a>
+      <a href="#">
+        <i class="fa fa-cog"></i>
+        <span class="badge-sonar"></span>
+      </a>
+      <a href="https://www.mydoctorspot.com/care/c3/index.php/Care_app_lite/logout">
+        <i class="fa fa-power-off"></i>
+      </a>
+    </div>
+
+  </nav>
+  <!-- sidebar-wrapper  -->
+  <main class="page-content" style="padding-top: 0px;">
+    <div class="container-fluid" style="padding-top: 0px;padding-bottom: 0px;">
+    <nav class="navbar navbar-expand-sm bg-light navbar-light fixed-top" id="nav2">
+    <a id="show-sidebar" class="btn btn-sm btn-light" href="#">
+    <i class="fas fa-bars"></i>
+  </a>
+  <a class="navbar-brand" href="https://www.mydoctorspot.com/care/c3/index.php/Care_app_lite" id="logo" style="padding-left:20px;">
+    <img src="https://www.mydoctorspot.com/care/c3/asset/images/logo.png" alt="Logo" style="width:95px;">
+  </a>
+  		<ul class="nav justify-content-end">
+  <li class="nav-item">
+    <a class="nav-link active" href="https://www.mydoctorspot.com/care/c3/index.php/Care_app_lite"><i class="fa fa-home"></i></a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="javascript:window.history.go(-1);"><i class="fa fa-angle-left"></i></a>
+  </li>
+  </ul>
+  <ul class="nav" id="nav-tab">
+     <li class="nav-item"><a class="nav-item nav-link" href="https://www.mydoctorspot.com/care/c3/index.php/Care_app_lite/covid19" id="nav-home-tab">Covid19</a></li>
+    <li class="nav-item"><a class="nav-item nav-link" href="https://www.mydoctorspot.com/care/c3/index.php/Care_app_lite/myself" id="nav-profile-tab">Myself</a></li>
+    <li class="nav-item"><a class="nav-item nav-link" href="https://www.mydoctorspot.com/care/c3/index.php/Care_app_lite/support" id="nav-doctor-tab">Support</a></li>
+   <!-- <a class="nav-item nav-link" id="nav-agent-tab" data-toggle="tab" href="#nav-agent" role="tab" aria-controls="nav-agent" aria-selected="false">Agent</a>-->
+  </ul>
+</nav>
+    </div>
+    <script>
+// When the user scrolls down 80px from the top of the document, resize the navbar's padding and the logo's font size
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
+    document.getElementById("nav2").style.padding = "20px 40px";
+    document.getElementById("logo").style.fontSize = "5px";
+  } else {
+    document.getElementById("nav2").style.padding = "10px 35px";
+    document.getElementById("logo").style.fontSize = "10px";
+  }
+}
+</script>
+
+
+<script>
+jQuery(function ($) {
+
+
+  $("#menu-toggle").click(function(e) {
+  e.preventDefault();
+  $("#page-wrapper").toggleClass("toggled");
+});
+
+  $("#show-sidebar").click(function() {
+$(".page-wrapper").addClass("toggled");
+});
+$("#close-sidebar").click(function() {
+$(".page-wrapper").removeClass("toggled");
+});
+$("#touchclose").click(function() {
+$(".page-wrapper").removeClass("toggled");
+});
+
+
+$(".sidebar-dropdown > a").click(function() {
+$(".sidebar-submenu").slideUp(200);
+if (
+$(this)
+  .parent()
+  .hasClass("active")
+) {
+$(".sidebar-dropdown").removeClass("active");
+$(this)
+  .parent()
+  .removeClass("active");
+} else {
+$(".sidebar-dropdown").removeClass("active");
+$(this)
+  .next(".sidebar-submenu")
+  .slideDown(200);
+$(this)
+  .parent()
+  .addClass("active");
+}
+});
+
+
+});
+</script>
+<br>
+<br>
+<br>
+<div class="container-fluid" style="padding-top:0px;padding-left:0px:padding-right:0px;padding-bottom:2px;padding-right: 10px;padding-left: 10px;" id="touchclose"> <div class="container-fluid">
+<div class="jumbotron">
+  <h1 class="display-4">Knowledge & Prevention</h1>
+  <p class="lead">The coronavirus COVID-19 pandemic is the defining global health crisis of our time and the greatest challenge we have faced since World War Two</p>
+  <hr class="my-4">
+  <p>What is coronavirus and how does it spread? What is COVID-19 and what are the symptoms?...click Learn More</p>
+  <p class="lead">
+    <a class="btn btn-primary btn-lg" href="http://77.245.76.78:8000/KIOSK/2207" role="button">Learn more</a>
+  </p>
+</div>
+</div>
+<div class="container-fluid">
+<div class="jumbotron">
+  <h1 class="display-4">Immunity</h1>
+  <p class="lead">Our immune system is essential for our survival.A strong immune system helps to keep a person healthy.</p>
+  <hr class="my-4">
+  <p>The immune system has a vital role: It protects your body from harmful substances like virus, bacteria and parasites...</p>
+  <p class="lead">
+    <a class="btn btn-primary btn-lg" href="http://77.245.76.78:8000/FatImmunityMeter/2207" role="button">Check Your Immunity</a>
+  </p>
+</div>
+</div>
+<div class="container-fluid">
+<div class="jumbotron">
+  <h1 class="display-4">Infection</h1>
+  <p class="lead">An infection occurs when another organism enters your body and causes disease. </p>
+  <hr class="my-4">
+  <p>The organisms that cause infections are very diverse and can include things like viruses, bacteria, fungi, and parasites.Check your body infected or not</p>
+  <p class="lead">
+    <a class="btn btn-primary btn-lg" href="http://77.245.76.78:8000/InfectionMeter/2207" role="button">Check</a>
+  </p>
+</div>
+</div>
+<div class="container-fluid">
+<div class="jumbotron">
+  <h1 class="display-4">Organ Health</h1>
+  <p class="lead">Humans have five vital organs that are essential for survival. These are the brain, heart, kidneys, liver and lungs</p>
+  <hr class="my-4">
+  <p>Check your Lungs</p>
+  <p class="lead">
+    <a class="btn btn-primary btn-lg" href="http://77.245.76.78:8000/symptoms/2207" role="button">Check</a>
+  </p>
+</div>
+</div>
+<div class="container-fluid">
+<div class="jumbotron">
+  <h1 class="display-4">Immunity index of communities</h1>
+  <p class="lead">The immune system protects its host from infection with layered defenses of increasing specificity.</p>
+  <hr class="my-4">
+  <p>Immunity index of communities</p>
+  <p class="lead">
+    <a class="btn btn-primary btn-lg" href="#" role="button">Check</a>
+  </p>
+</div>
+</div>
+
+		  <!-- page-content" -->
+  </main>
+</div>
+</div>
+<script src="https://www.mydoctorspot.com/care/c3/asset/jquery.js"></script>
+<script src="https://www.mydoctorspot.com/care/c3/asset/js/bootstrap.min.js"></script>
+<script  src="https://www.mydoctorspot.com/care/c3/asset/popper/popper.min.js"></script>
+
+
+
+<!--<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>-->
+</body>
+</html>
